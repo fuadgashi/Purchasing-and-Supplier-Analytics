@@ -1,8 +1,8 @@
-# DAX Functions Used in This Module
+# DAX Functions Used in This Solution
 
-Purchase & Supply draws on 3 functions from the solution's shared DAX
-time-intelligence library — the same reusable engine used across every module. Only
-the functions this module actually calls are documented below.
+Purchase & Supply draws on 3 functions from a shared DAX time-intelligence library —
+the same reusable engine used across the companion Power BI projects. Only the
+functions this solution actually calls are documented below.
 
 ```dax
 /// Year-to-date: evaluates the measure for the current calendar year, dates up to

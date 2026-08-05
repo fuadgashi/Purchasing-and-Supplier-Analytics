@@ -2,7 +2,7 @@
 
 Formula logic is reproduced exactly as authored; only identifiers are translated to
 English. Every current/prior-year/growth-index variant composes the
-[shared functions](dax-functions.md) rather than being hand-written per measure.
+[shared functions](dax-functions.md) rather than being written one-off per measure.
 
 ## 1. Purchase value & quantity
 

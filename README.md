@@ -1,20 +1,20 @@
 # Purchase Analytics
 
-A **Power BI** procurement-monitoring solution built for a multi-brand FMCG/consumer-
-goods distribution business — incoming goods-receipt value, quantity, and
+A **Power BI** purchase & supply monitoring solution built for a multi-brand FMCG/
+consumer-goods distribution business — incoming goods-receipt value, quantity, and
 transaction volume from suppliers, by brand, product, and time.
 
-This repository documents the architecture and DAX behind the solution's **Purchase
-& Supply** module. It's a portfolio write-up, not the live report: all entity names
-in the underlying model are generic sample labels (`Product 001`, `Brand 1`…), and
-no real business figures, screenshots, or connection details are included here.
+This repository documents the architecture and DAX behind this **Purchase
+Analytics** solution. It's a portfolio write-up, not the live report: all entity
+names in the underlying model are generic sample labels (`Product 001`, `Brand 1`…),
+and no real business figures, screenshots, or connection details are included here.
 
 ## Business context
 
 The business distributes ~10 brands across roughly 4 divisions, replenished through
-regular supplier goods receipts. This module is the buy-side complement to sales
+regular supplier goods receipts. This solution is the buy-side complement to sales
 monitoring: how much is coming in, from which brands and products, how that compares
-to last year, and how many receiving transactions it took — visibility procurement
+to last year, and how many receiving transactions it took — visibility purchasing
 and category teams need without cross-referencing supplier paperwork by hand.
 
 ## What this covers
@@ -29,8 +29,8 @@ and category teams need without cross-referencing supplier paperwork by hand.
   value/quantity with a YoY growth index.
 
 *Out of scope for this repository:* sales monitoring, inventory, pricing/margin,
-trade marketing, sales planning, and portfolio analytics are separate modules in the
-full solution — this repo covers incoming goods-receipt tracking only.
+trade marketing, sales planning, and portfolio analytics are covered in separate,
+standalone Power BI projects — this repo covers incoming goods-receipt tracking only.
 
 ## Architecture
 
@@ -54,7 +54,7 @@ flowchart LR
 | Doc | Contents |
 |---|---|
 | [Data Model](docs/data-model.md) | Star schema, ER diagram, table catalog, relationships, and the transaction-volume design rationale |
-| [DAX Functions Used](docs/dax-functions.md) | The 3 shared time-intelligence functions this module calls |
+| [DAX Functions Used](docs/dax-functions.md) | The 3 shared time-intelligence functions this solution calls |
 | [DAX Measure Catalog](docs/dax-measures.md) | Purchase value, quantity, transaction-volume, and share measures |
 | [Report Tour](docs/report-pages.md) | Walkthrough of both pages |
 
