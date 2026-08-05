@@ -6,11 +6,6 @@ many receiving transactions it took to get there. It's a small, focused star sch
 one fact table hung off the same product/brand/calendar dimensions used elsewhere in
 the solution.
 
-> **Scope note.** This repository covers the **Purchase & Supply** module only —
-> incoming goods-receipt value, quantity, and transaction volume by brand, product,
-> and time. The full solution also includes separate modules for sales monitoring,
-> inventory, pricing & margin, trade marketing, sales planning, and portfolio
-> analytics, which are out of scope here.
 
 ## Entity-relationship diagram
 
