@@ -6,12 +6,6 @@ many receiving transactions it took to get there. It's a small, focused star sch
 one fact table hung off the same product/brand/calendar dimensions used in the
 companion Power BI projects.
 
-> **Scope note.** This repository covers **Purchase & Supply** only — incoming
-> goods-receipt value, quantity, and transaction volume by brand, product, and time.
-> Sales monitoring, inventory, pricing & margin, trade marketing, sales planning, and
-> portfolio analytics are covered in separate, standalone Power BI projects and are
-> out of scope here.
-
 ## Entity-relationship diagram
 
 ```mermaid
