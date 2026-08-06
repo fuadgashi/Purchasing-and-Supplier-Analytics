@@ -1,4 +1,4 @@
-# Purchase Analytics
+# Purchasing and Supplier Analytics
 
 A **Power BI** purchase & supply monitoring solution built for a multi-brand FMCG/
 consumer-goods distribution business — incoming goods-receipt value, quantity, and
