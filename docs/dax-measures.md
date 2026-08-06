@@ -1,8 +1,6 @@
 # DAX Measure Catalog
 
-Formula logic is reproduced exactly as authored; only identifiers are translated to
-English. Every current/prior-year/growth-index variant composes the
-[shared functions](dax-functions.md) rather than being written one-off per measure.
+Formula logic is reproduced exactly as implemented. All current-year, prior-year, and growth calculations are based on the same calculation framework, ensuring consistent results throughout the solution.
 
 ## 1. Purchase value & quantity
 
