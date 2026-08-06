@@ -28,10 +28,6 @@ and category teams need without cross-referencing supplier paperwork by hand.
 - **Brand & product share** — purchase share of total by brand, and product-level
   value/quantity with a YoY growth index.
 
-*Out of scope for this repository:* sales monitoring, inventory, pricing/margin,
-trade marketing, sales planning, and portfolio analytics are covered in separate,
-standalone Power BI projects — this repo covers incoming goods-receipt tracking only.
-
 ## Architecture
 
 ```mermaid
