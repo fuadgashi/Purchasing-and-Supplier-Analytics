@@ -9,4 +9,5 @@ transaction volume, benchmarked against prior year.
 | **Purchases** | Brand and product-level purchase value/quantity with YoY growth index, a purchase-share-by-brand donut, and a brand-level current-vs-prior-year comparison chart. |
 
 Both pages share the filter panel (date range, division/brand, product) and
-navigator shell used across the solution.
+navigator shell used across the solution — all localized through the dynamic
+title/label system described in [Dynamic Titles & Localization](dynamic-titles.md).
